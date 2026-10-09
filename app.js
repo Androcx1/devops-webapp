@@ -705,6 +705,18 @@ app.delete(
   }
 );
 
+// ======================================================
+// HEALTH CHECK
+// ======================================================
+
+app.get("/api/health", (req, res) => {
+  res.status(200).json({
+    statusCode: 200,
+    mensaje: "API DevOps desplegada automáticamente con CI/CD",
+    estado: "OK"
+  });
+});
+
 
 
 // ======================================================
