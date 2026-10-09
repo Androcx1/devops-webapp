@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Cobertura de Jest
+coverage/
+
+# Bases de datos locales
+*.db
+
+# Backups
+backups/
+
+# Variables de entorno
+.env
+.env.*
+
+# Llaves y certificados
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
