@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest --runInBand",
-    "dev": "nodemon server.js"
+    "test:coverage": "jest --coverage --runInBand"
   },
   "keywords": [],
   "author": "",
